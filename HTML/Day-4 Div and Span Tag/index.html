@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div and Spant Ka Gyan</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .hero-section{
+            width: 100%;
+            height: 70%;
+            background-color: deeppink;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .left{
+            width: calc(100% / 3);
+            height: 100%;
+            background-color: lightsalmon;
+        }
+        .between{
+            background-color: black;
+            width: calc(100% / 3);
+            height: 100%;
+        }
+        .right{
+            width: calc(100% / 3);
+            height: 100%;
+            background-color: lightgreen;
+        }
+        nav{
+            background-color: black;
+            color: white;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8.5rem;
+        }
+        span{
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="hero-section">
+        <div class="left"></div>
+        <div class="between"></div>
+        <div class="right"></div>
+    </div> -->
+    <nav>
+        <span>Home</span>
+        <span>Career</span>
+        <span>About Us</span>
+        <span>Contact Us</span>
+        <span>Help</span>
+    </nav>
+</body>
+</html>
