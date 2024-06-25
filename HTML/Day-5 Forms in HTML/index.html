@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+    <style>
+        sup{
+            color: red;
+            font-size: 12px;
+        }
+        fieldset{
+            width: 200px;
+            border: 2px solid deeppink;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+       <fieldset>
+        <!-- caption -->
+         <legend><b>Sign-in Form</b></legend>
+
+        <label for="fname">Name<sup>*</sup>
+            <input type="text" id="fname" required placeholder="Enter your fullname">
+        </label> <br><br>
+
+        <label for="mobile">Mob<sup>*</sup>
+            <input type="tel" id="mobile" required placeholder="+91-xxxxxxxxxx">
+        </label> <br><br>
+
+        <label for="user-email">Email<sup>*</sup>
+            <input type="email" id="user-email" required placeholder="Enter email address">
+        </label>
+        <br><br>
+
+        <label for="pass">Password<sup>*</sup>
+            <input type="password" id="pass" required placeholder="at least 8 characters">
+        </label>
+        <br><br>
+        <label for="user-info">Submit your Resume & Sign<sup>*</sup>
+            <br>
+            <input type="file" multiple required>
+        </label>
+        <br><br>
+
+        Gender <br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+
+        <br><br>
+
+        Hobbies <br>
+        <input type="checkbox">Singing
+        <input type="checkbox">Dancing <br>
+        <input type="checkbox">Drinking Water
+        <input type="checkbox">Sleeping <br>
+        <input type="checkbox">Playing Cricket
+        <input type="checkbox">Travelling
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+        
+       </fieldset>
+    </form>
+</body>
+</html>
