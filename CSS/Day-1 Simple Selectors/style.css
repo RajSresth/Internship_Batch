@@ -1,0 +1,29 @@
+/* Tag Name or Element Selector */
+/* div{
+    color: red;
+} */
+
+/* Id Selector # */
+/* #div1{
+    color:red;
+} */
+
+
+/* Class Selector . */
+/* .flex{
+    color: magenta;
+}
+.div1{
+    color: red;
+} */
+
+/* Universal Selector * */
+*{
+    background-color: black;
+    color: white;
+}
+
+/* Grouping Selector */
+#div2,.heading{
+    color: aqua;
+}
