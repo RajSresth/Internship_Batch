@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://thumbs.dreamstime.com/b/landscape-view-mountain-lake-tree-hd-desktop-wallpaper-background-ai-generated-318274331.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+div{
+    width: 80%;
+    height: 60%;
+    border:3px solid white;
+    background-image: url('https://idolkart.com/cdn/shop/articles/Shri_Krishna_Leela.jpg?v=1699683200');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
