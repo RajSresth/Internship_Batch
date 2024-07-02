@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-1{
+    background-image: url('https://images.pexels.com/photos/1679551/pexels-photo-1679551.jpeg?cs=srgb&dl=pexels-mirrographer-1679551.jpg&fm=jpg');
+}
+.section-2{
+    background-image: url('https://images.pexels.com/photos/1796727/pexels-photo-1796727.jpeg?cs=srgb&dl=pexels-chaitaastic-1796727.jpg&fm=jpg');
+}
+.section-3{
+    background-image: url('https://www.chinaeducationaltours.com/media/image/2020-08/15979154843992.jpg');
+}
+.section-4{
+    background-image: url('https://www.istudy-china.com/wp-content/uploads/2023/08/Li-River1-scaled.webp');
+}
+.section-5{
+    background-image: url('https://ichef.bbci.co.uk/news/2048/cpsprodpb/1d36/live/1304a800-365f-11ef-88f3-6b74aebc5fc9.jpg');
+}
+.section-6{
+    background-image: url('https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg');
+}
+
+
