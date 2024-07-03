@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+   
+}
+
+div{
+    font-size: 30px;
+    color: white;
+    width: 800px;
+    height: auto;
+    background-color: red;
+    margin: 120px auto;
+    border: 5px solid white;
+    padding: 30px;
+    text-align: justify;
+}
