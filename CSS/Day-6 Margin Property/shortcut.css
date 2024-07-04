@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    width: 800px;
+    height: 380px;    
+    border: 5px solid black;
+
+}
+.box-1{
+    margin: 180px auto 0px;
+    background-color: lightcoral;
+}
+.box-2{
+    margin: 0px auto;
+    background-color: lightblue;
+}
