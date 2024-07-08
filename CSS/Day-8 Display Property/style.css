@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 55px;    
+}
+
+span{
+    background-color: aqua;
+    height: 350px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    line-height:350px ;
+}
+div{
+    background-color: magenta;
+   width: 300px;
+   height: 350px;
+   text-align: center;
+   line-height:350px ;
+   display: inline-block;
+   visibility: hidden;
+}

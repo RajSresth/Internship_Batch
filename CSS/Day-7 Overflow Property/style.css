@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.card{
+    width: 400px;
+    height: 490px;
+    border: 3px solid black;
+    margin:150px auto;
+    font-size: 25px;
+    overflow:scroll;
+    text-align: justify;
+    padding: 10px 25px;    
+}
