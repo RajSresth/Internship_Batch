@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent{
+    width: 1500px;
+    height: 850px;
+    background-color: lightgoldenrodyellow;
+    border: 4px solid black;
+    /* margin:80px auto; */
+   display: flex;
+   flex-flow: row wrap;
+   align-content: space-evenly;
+   justify-content: center;
+}
+.child{
+    width: 180px;
+    height: 180px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 180px;
+}
+.child-1{
+    background-color: mediumblue;
+    color: white;
+}
+.child-2{
+    background-color: lightcoral;
+}
+.child-3{
+    background-color: aqua;
+}
+.child-4{
+    background-color: darkcyan;
+    color: white;
+}
+.child-5{
+    background-color: darkgoldenrod;
+    color: white;
+}
+.child-6{
+    background-color: darkgreen;
+    color: white;
+}
+.child-7{
+    background-color: rgb(185, 4, 4);
+    color: white;
+}
+.child-8{
+    background-color: darkmagenta;
+    color: white;
+}
+.child-9{
+    background-color: darkkhaki;
+}
