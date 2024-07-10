@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#header{
+    width:100% ;
+    height: 68px;
+    /* background: aqua; */
+    box-shadow: 0px 0.25px 2px 0px rgb(167, 166, 166);
+    position: fixed;
+    top: 0px;
+}
+
+.header-container{
+    width: 1100px;
+    height: 100%;
+    /* background-color: lightcoral; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .logo{
+    width: 129px;
+    height: 17px;
+}
+#header .image{
+    width: 100%;
+    height: 100%;
+}
+
+#header .desktop-nav{
+    font-size: 15px;
+    width: 623px;
+    height: 100%;
+    /* background-color: mediumaquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0px 2.5rem;
+}
+
+#header a{
+    color: #737373;
+}
+
+#header .hamburger{
+    width: 18px;
+    height: 18px;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    gap: 3.7px;
+    justify-content: center;
+}
+#header span{
+    width: 100%;
+    height: 2.2px;
+    background-color: #424242;    
+}
+
+#header a:hover{
+    color: #387ed1;
+}
+
+#hero-section{
+    width: 100%;
+    height: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#hero-section .hero-section-container{
+    width: 1100px;
+    height: 569px;
+    /* background-color: lightcoral;     */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#hero-section .image-container{
+    width: 743px;
+    height: 313px;
+}
+#hero-section img{
+    width: 100%;
+    height: 100%;
+}
+
+#hero-section h1{
+    font-size: 2.75rem;    
+    font-weight: 520;
+    margin: 4rem 0 1.15rem;
+}
+#hero-section p{
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+#hero-section .signup{
+    width: 174px;
+    height: 45px;
+    background-color: #387ed1;
+    color: white;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.2em;    
+}
+
+#hero-section .signup:hover{
+    background-color: black;
+}
