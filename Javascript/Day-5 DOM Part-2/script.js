@@ -25,12 +25,17 @@ div.insertAdjacentElement("afterend",para1)
 
 */
 
+<<<<<<< HEAD
 /*afterbegin 
+=======
+/*afterbegin */
+>>>>>>> bcef75c7a7fc0a63d7258928d19485d465d19dd4
 const p1=document.createElement('p')
 p1.textContent="Direct Child-1"
 
 const div=document.getElementById('tag')
 div.insertAdjacentElement("afterbegin",p1)
+<<<<<<< HEAD
 */
 
 // Traversing
@@ -118,3 +123,5 @@ if(res2==="carry"){
 }
 
 
+=======
+>>>>>>> bcef75c7a7fc0a63d7258928d19485d465d19dd4
