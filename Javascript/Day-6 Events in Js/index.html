@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Ye dhai kilo ka hath jispr padta h vo uthta nahi uth jata h</h1>
+    <button id="btn" onclick="changeBg()">start</button>
+
+    <script>
+      function changeBg() {
+        const heading = document.querySelector("h1");
+        const body = document.body;
+        body.style.cssText = "background-color:black;color:white;";
+        setTimeout(() => {
+          heading.textContent = "Are Bhai Bhai Bhai Bhai..";
+        }, 2000);
+      }
+    </script>
+  </body>
+</html>
